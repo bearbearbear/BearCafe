@@ -1,0 +1,8 @@
+<!--pages/detail/detail.wxml-->
+<view>
+{{scanResult}}
+</view>
+<view>
+  <button bindtap="addItemToList">加入列表</button>
+  <button bindtap="cancelItem">返回</button>
+</view>
